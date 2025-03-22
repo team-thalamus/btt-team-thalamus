@@ -54,7 +54,7 @@ Clone the Repository:
 To get started, clone the repository to your local machine:
 
 '''
- git clone https://github.com/your-username/adhd-sex-prediction.git 
+ git clone https://github.com/team-thalamus/btt-team-thalamus
  cd adhd-sex-prediction 
  
 Install Dependencies
