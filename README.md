@@ -39,13 +39,28 @@ The dataset provided in Kaggle is part of the Healthy Brain Network (HBN) initia
 We used Pandas and NumPy to clean and organize data. To ensure all features were on the same scale, we applied StandardScaler. Using SMOTETomek, we worked on class imbalance, which is when a target class has more samples than another. We filled in missing values and dealt with outliers through imputation. The preprocessing helped ensure that the data we worked with for our model is clean and balanced.
 
 * Challenges and assumptions when working with the dataset(s)
-One challenge we faced was trying to improve our accuracy score. 
+One challenge we faced was trying to improve our accuracy score.
 
+## **Setup:**
+
+**Clone the Repository**
+To get started, clone the repository to your local machine:
+
+'''
+ git clone https://github.com/your-username/adhd-sex-prediction.git 
+ cd adhd-sex-prediction 
+ 
+Install Dependencies
+Install the required Python dependencies by running the following:
+
+ pip install -r requirements.txt 
+'''
 **Data Visualizations:**
 
 <img width="693" alt="Screenshot 2025-03-22 at 10 34 37 AM" src="https://github.com/user-attachments/assets/5403cdb3-0d7a-419b-9a64-0cc6b5ce4645" />
 <img width="633" alt="Screenshot 2025-03-22 at 10 35 39 AM" src="https://github.com/user-attachments/assets/60bc14fc-8ec3-49ff-90cd-df5e1758f782" />
 <img width="635" alt="Screenshot 2025-03-22 at 10 35 53 AM" src="https://github.com/user-attachments/assets/cc571107-39cc-4be9-84c6-f6291569c04b" />
+
 
 
 
