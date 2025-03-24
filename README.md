@@ -6,7 +6,7 @@
 
 | Harsita Keerthikanth | @harsita-keerthi | Performed exploratory data analysis, data processing, and built baseline model |
 
-| Meenakshi Sundarrajan | @Meenakshi2004 | ______ |
+| Meenakshi Sundarrajan | @Meenakshi2004 | Modified hyperparameter tuning & accuracy and model testing |
 
 | Krit Ravichandran | @krit.rr | Performed data processing, built model, performed hyperparameter tuning |
 
