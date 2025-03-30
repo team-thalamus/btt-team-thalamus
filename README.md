@@ -28,7 +28,7 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
 
 ---
 
-# 🎯 Project Highlights
+## ** 🎯 Project Highlights **
 
 - **Built a Logistic Regression Model**: Developed baseline models for both ADHD and Sex classification using Logistic Regression to understand initial performance and set a benchmark.
   
@@ -41,7 +41,7 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
   - This approach balanced performance between classes, especially improving detection for non-ADHD and female cases.
 
 - **Explored Kaggle Dataset**: 
-  - Submitted the **Ensemble Model** to Kaggle, where it achieved an accuracy of **~64%**, highlighting the challenge of model generalization to unseen data.
+  - Submitted the **Ensemble Model** to Kaggle, where it achieved an accuracy of **~65%**, highlighting the challenge of model generalization to unseen data.
 
 - **Addressed Class Imbalances**: Focused on balancing **class weights** for both ADHD and Sex models to reduce bias, leading to more balanced F1-scores across different classes.
 
