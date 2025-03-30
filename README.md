@@ -28,6 +28,9 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
 
 ---
 
+## **🏗️ Project Highlights**
+
+
 ## **📊 Data Exploration**
 
 **Describe:**
