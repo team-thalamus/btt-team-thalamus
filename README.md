@@ -98,7 +98,11 @@ To further enhance accuracy, we combined predictions from multiple models—**Lo
 - **Accuracy:** 75.31%  
 - **F1-score:** 0.83 (Male), 0.58 (Female)  
 - **Best Individual Model:** **Logistic Regression (74.89% accuracy)**  
-- **🔍 Observation:** The ensemble slightly improved classification, but female classification recall remained lower than desired.  
+- **🔍 Observation:** The ensemble slightly improved classification, but female classification recall remained lower than desired.
+  
+<img width="466" alt="Screenshot 2025-03-30 at 4 32 29 PM" src="https://github.com/user-attachments/assets/f76e8523-10e0-4ae4-88d3-39fb23767976" />
+
+<img width="947" alt="Screenshot 2025-03-30 at 4 32 17 PM" src="https://github.com/user-attachments/assets/03786fe3-f1b3-4080-ba4c-8eb6576a16af" />
 
 
 ## **Setup**
