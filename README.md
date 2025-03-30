@@ -28,6 +28,26 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
 
 ---
 
+# 🎯 Project Highlights
+
+- **Built a Logistic Regression Model**: Developed baseline models for both ADHD and Sex classification using Logistic Regression to understand initial performance and set a benchmark.
+  
+- **Enhanced Performance Through Hyperparameter Tuning**: 
+  - Used **GridSearchCV** to tune the **solver, penalty, and class weights** for Logistic Regression, improving accuracy and reducing bias towards the majority class.
+  - Achieved a **9% improvement in the ADHD model** and a **2% improvement in the Sex classification model**.
+
+- **Implemented Ensemble Learning**: 
+  - Combined predictions from **Logistic Regression, Random Forest, and XGBoost** to create an ensemble model, boosting overall performance and achieving a **76.95% accuracy in ADHD** and **75.31% in Sex classification**.
+  - This approach balanced performance between classes, especially improving detection for non-ADHD and female cases.
+
+- **Explored Kaggle Dataset**: 
+  - Submitted the **Ensemble Model** to Kaggle, where it achieved an accuracy of **~64%**, highlighting the challenge of model generalization to unseen data.
+
+- **Addressed Class Imbalances**: Focused on balancing **class weights** for both ADHD and Sex models to reduce bias, leading to more balanced F1-scores across different classes.
+
+- **Refined ADHD and Sex Classification Models**: 
+  - Successfully built models that addressed specific challenges like ADHD detection accuracy and improving female detection in the sex classification task.
+
 
 
 ## **📊 Data Exploration**
