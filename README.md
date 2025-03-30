@@ -100,7 +100,10 @@ We tried using multiple models together (Logistic Regression, Random Forest, XGB
 - **Best Individual Model:** Logistic Regression (74.89% accuracy)
 - **Explanation:** The ensemble helped a little, but female detection was still problematic. Since Logistic Regression performed almost as well as the ensemble, it suggests that the issue is more data-related rather than model-related.
 
-<img width="466" alt="ADHD Ensemble Model" src="https://github.com/user-attachments/assets/f76e8523-10e0-4ae4-88d3-39fb23767976" />
+<img width="466" alt="ADHD Ensemble Model" src="https://github.com/user-attachments/assets/f76e8523-10e0-4ae4-88d3-39fb23767976" /> <br>
+
+<img width="947" alt="Sex Ensemble Model" src="https://github.com/user-attachments/assets/03786fe3-f1b3-4080-ba4c-8eb6576a16af" />
+
 
 ---
 
@@ -111,7 +114,7 @@ After testing all models, the Ensemble Model was submitted to Kaggle because it 
 - **Kaggle Accuracy:** 0.64427
 - **Explanation:** The Kaggle result was lower than our training results (around 75-78%). This drop in performance suggests that the model didn't generalize well to unseen test data. This could mean there are differences between the dataset used for training and the one on Kaggle, or our model was slightly overfitting to the training data.
 
-<img width="947" alt="Sex Ensemble Model" src="https://github.com/user-attachments/assets/03786fe3-f1b3-4080-ba4c-8eb6576a16af" />
+<img width="405" alt="Screenshot 2025-03-30 at 4 50 51 PM" src="https://github.com/user-attachments/assets/130897cf-7466-4930-9a64-510715a0af44" />
 
 
 
