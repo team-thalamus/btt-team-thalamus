@@ -28,7 +28,26 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
 
 ---
 
-## **🏗️ Project Highlights**
+## **🏗️ Model Development**
+**🔹 Baseline Models**
+
+We initially trained separate Logistic Regression models for ADHD and Sex classification.
+
+**📊 ADHD Baseline Model:**
+
+Accuracy: 65.02%
+
+F1-score: 0.74 (ADHD class), 0.44 (non-ADHD class)
+
+Observation: Model performed better for ADHD-positive cases but struggled with non-ADHD cases.
+
+**📊 Sex Baseline Model:**
+
+Accuracy: 72.84%
+
+F1-score: 0.80 (Male), 0.57 (Female)
+
+Observation: Model favored male classification over female.
 
 
 ## **📊 Data Exploration**
