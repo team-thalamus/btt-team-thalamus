@@ -50,25 +50,54 @@ One challenge we faced was trying to improve our accuracy score.
 <img width="635" alt="Screenshot 2025-03-22 at 10 35 53 AM" src="https://github.com/user-attachments/assets/cc571107-39cc-4be9-84c6-f6291569c04b" />
 
 ## **🏗️ Model Development**
-**🔹 Baseline Models**
 
-We initially trained separate Logistic Regression models for ADHD and Sex classification.
+## **🏗️ Model Development**  
 
-**📊 ADHD Baseline Model:**
+### **🔹 Baseline Models**  
+We started with Logistic Regression models as our baseline for both ADHD and Sex classification. These models provided a reference point to measure improvements from tuning and ensemble methods.  
 
-Accuracy: 65.02%
+#### **📊 ADHD Baseline Model:**  
+- **Accuracy:** 65.02%  
+- **F1-score:** 0.74 (ADHD), 0.44 (non-ADHD)  
+- **🔍 Observation:** The model was better at detecting ADHD-positive cases but struggled to correctly classify non-ADHD cases, indicating an imbalance in predictive performance.  
 
-F1-score: 0.74 (ADHD class), 0.44 (non-ADHD class)
+#### **📊 Sex Baseline Model:**  
+- **Accuracy:** 72.84%  
+- **F1-score:** 0.80 (Male), 0.57 (Female)  
+- **🔍 Observation:** The model performed well for male classification but had lower recall for female classification, suggesting bias toward the majority class.  
 
-Observation: Model performed better for ADHD-positive cases but struggled with non-ADHD cases.
+---  
 
-**📊 Sex Baseline Model:**
+### **🔹 Hyperparameter Tuning**  
+To improve performance, we fine-tuned the Logistic Regression models using **GridSearchCV**, optimizing parameters like solver, penalty type, and class weights to better handle class imbalances.  
 
-Accuracy: 72.84%
+#### **🚀 Tuned ADHD Model:**  
+- **Best Parameters:** `solver=liblinear, penalty=l1, class_weight=balanced, C=1.0`  
+- **Accuracy:** 74.07% (**+9% improvement**)  
+- **🔍 Key Takeaway:** Tuning significantly improved the model’s ability to detect ADHD cases while slightly improving recall for non-ADHD cases.  
 
-F1-score: 0.80 (Male), 0.57 (Female)
+#### **🚀 Tuned Sex Model:**  
+- **Best Parameters:** `solver=newton-cg, penalty=l2, class_weight=balanced, C=1.0`  
+- **Accuracy:** 74.89% (**+2% improvement**)  
+- **🔍 Key Takeaway:** Performance improved slightly, but female classification recall remained a challenge.  
 
-Observation: Model favored male classification over female.
+---  
+
+### **🔹 Ensemble Models**  
+To further enhance accuracy, we combined predictions from multiple models—**Logistic Regression (LR), Random Forest (RF), and XGBoost (XGB)**—to create an ensemble model.  
+
+#### **🏆 ADHD Ensemble Model:**  
+- **Accuracy:** 76.95%  
+- **F1-score:** 0.84 (ADHD), 0.61 (non-ADHD)  
+- **Best Individual Model:** **XGBoost (78.60% accuracy)**  
+- **🔍 Observation:** The ensemble approach improved overall classification, balancing recall across ADHD and non-ADHD cases.  
+
+#### **🏆 Sex Ensemble Model:**  
+- **Accuracy:** 75.31%  
+- **F1-score:** 0.83 (Male), 0.58 (Female)  
+- **Best Individual Model:** **Logistic Regression (74.89% accuracy)**  
+- **🔍 Observation:** The ensemble slightly improved classification, but female classification recall remained lower than desired.  
+
 
 ## **Setup**
 
