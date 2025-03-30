@@ -4,13 +4,12 @@
 
 ## **👥 Team Members**
 
-| Harsita Keerthikanth | @harsita-keerthi | Performed exploratory data analysis, data processing, and built baseline model |
-
-| Meenakshi Sundarrajan | @Meenakshi2004 | Modified hyperparameter tuning & accuracy and model testing |
-
-| Krit Ravichander | @krit.rr | Performed data processing, built model, performed hyperparameter tuning |
-
-| Srewashi Mondal | @srewashimondal | Focused on trying to improve the model through continuous testing |
+| Name                  | GitHub Handle        | Contribution                                                         |
+|-----------------------|----------------------|----------------------------------------------------------------------|
+| Harsita Keerthikanth  | @harsita-keerthi     | Performed exploratory data analysis, data processing, and built baseline model |
+| Meenakshi Sundarrajan  | @Meenakshi2004       | Modified hyperparameter tuning & accuracy and model testing          |
+| Krit Ravichander       | @krit.rr             | Performed data processing, built model, performed hyperparameter tuning |
+| Srewashi Mondal       | @srewashimondal      | Focused on trying to improve the model through continuous testing    |
 
 ---
 
@@ -54,8 +53,8 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
 
 To get started, clone the repository to your local machine:
 <ul>
-    <li><code> git clone https://github.com/your-username/adhd-sex-prediction.git </code></li>
-    <li><code> cd adhd-sex-prediction </code></li>
+    <li><code> git clone https://github.com/team-thalamus/btt-team-thalamus.git </code></li>
+    <li><code> cd btt-team-thalamus </code></li>
 </ul>
 
 ### **Install Dependencies**
@@ -70,13 +69,13 @@ Install the required Python dependencies by running the following:
 
 **Describe:**
 
-* The dataset(s) used (i.e., the data provided in Kaggle \+ any additional sources) 
+* **Dataset:** 
 The dataset provided in Kaggle is part of the Healthy Brain Network (HBN) initiative by Child Mind Institute. The datasets consist of functional MRI connectome matrices, socio-demographic information, emotional assessments, and parenting data for over 1,200 children and adolescents. 
 
-* Data exploration and preprocessing approaches
+* **Data exploration and preprocessing approaches:**
 We used Pandas and NumPy to clean and organize data. To ensure all features were on the same scale, we applied StandardScaler. Using SMOTETomek, we worked on class imbalance, which is when a target class has more samples than another. We filled in missing values and dealt with outliers through imputation. The preprocessing helped ensure that the data we worked with for our model is clean and balanced.
 
-* Challenges and assumptions when working with the dataset(s)
+* **Challenges and assumptions:**
 One challenge we faced was trying to improve our accuracy score.
 
 **Data Visualizations:**
