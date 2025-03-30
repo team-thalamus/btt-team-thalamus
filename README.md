@@ -8,7 +8,7 @@
 
 | Meenakshi Sundarrajan | @Meenakshi2004 | Modified hyperparameter tuning & accuracy and model testing |
 
-| Krit Ravichandran | @krit.rr | Performed data processing, built model, performed hyperparameter tuning |
+| Krit Ravichander | @krit.rr | Performed data processing, built model, performed hyperparameter tuning |
 
 | Srewashi Mondal | @srewashimondal | Focused on trying to improve the model through continuous testing |
 
