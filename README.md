@@ -28,26 +28,6 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
 
 ---
 
-## **🏗️ Model Development**
-**🔹 Baseline Models**
-
-We initially trained separate Logistic Regression models for ADHD and Sex classification.
-
-**📊 ADHD Baseline Model:**
-
-Accuracy: 65.02%
-
-F1-score: 0.74 (ADHD class), 0.44 (non-ADHD class)
-
-Observation: Model performed better for ADHD-positive cases but struggled with non-ADHD cases.
-
-**📊 Sex Baseline Model:**
-
-Accuracy: 72.84%
-
-F1-score: 0.80 (Male), 0.57 (Female)
-
-Observation: Model favored male classification over female.
 
 
 ## **📊 Data Exploration**
@@ -68,6 +48,27 @@ One challenge we faced was trying to improve our accuracy score.
 <img width="693" alt="Screenshot 2025-03-22 at 10 34 37 AM" src="https://github.com/user-attachments/assets/5403cdb3-0d7a-419b-9a64-0cc6b5ce4645" />
 <img width="633" alt="Screenshot 2025-03-22 at 10 35 39 AM" src="https://github.com/user-attachments/assets/60bc14fc-8ec3-49ff-90cd-df5e1758f782" />
 <img width="635" alt="Screenshot 2025-03-22 at 10 35 53 AM" src="https://github.com/user-attachments/assets/cc571107-39cc-4be9-84c6-f6291569c04b" />
+
+## **🏗️ Model Development**
+**🔹 Baseline Models**
+
+We initially trained separate Logistic Regression models for ADHD and Sex classification.
+
+**📊 ADHD Baseline Model:**
+
+Accuracy: 65.02%
+
+F1-score: 0.74 (ADHD class), 0.44 (non-ADHD class)
+
+Observation: Model performed better for ADHD-positive cases but struggled with non-ADHD cases.
+
+**📊 Sex Baseline Model:**
+
+Accuracy: 72.84%
+
+F1-score: 0.80 (Male), 0.57 (Female)
+
+Observation: Model favored male classification over female.
 
 ## **Setup**
 
