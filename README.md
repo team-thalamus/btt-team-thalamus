@@ -62,7 +62,9 @@ We started with Logistic Regression models as our baseline for both ADHD and Sex
 #### **📊 Sex Baseline Model:**  
 - **Accuracy:** 72.84%  
 - **F1-score:** 0.80 (Male), 0.57 (Female)  
-- **🔍 Observation:** The model performed well for male classification but had lower recall for female classification, suggesting bias toward the majority class.  
+- **🔍 Observation:** The model performed well for male classification but had lower recall for female classification, suggesting bias toward the majority class.
+
+<img width="479" alt="Screenshot 2025-03-30 at 4 31 45 PM" src="https://github.com/user-attachments/assets/9e6e49af-71ba-4cde-8ff4-eb08b3d3771e" />
 
 ---  
 
@@ -78,6 +80,8 @@ To improve performance, we fine-tuned the Logistic Regression models using **Gri
 - **Best Parameters:** `solver=newton-cg, penalty=l2, class_weight=balanced, C=1.0`  
 - **Accuracy:** 74.89% (**+2% improvement**)  
 - **🔍 Key Takeaway:** Performance improved slightly, but female classification recall remained a challenge.  
+<img width="949" alt="Screenshot 2025-03-30 at 4 32 05 PM" src="https://github.com/user-attachments/assets/69cfb464-47e4-4b9b-aa7a-b10fd258be90" />
+
 
 ---  
 
