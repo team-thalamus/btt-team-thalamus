@@ -48,6 +48,22 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
 - **Refined ADHD and Sex Classification Models**: 
   - Successfully built models that addressed specific challenges like ADHD detection accuracy and improving female detection in the sex classification task.
 
+## 🛠️ **Setup & Execution **
+
+### **Clone the Repository**
+
+To get started, clone the repository to your local machine:
+<ul>
+    <li><code> git clone https://github.com/your-username/adhd-sex-prediction.git </code></li>
+    <li><code> cd adhd-sex-prediction </code></li>
+</ul>
+
+### **Install Dependencies**
+
+Install the required Python dependencies by running the following:
+<ul>
+    <li><code> pip install -r requirements.txt </code></li>
+</ul>
 
 
 ## **📊 Data Exploration**
@@ -138,22 +154,7 @@ After testing all models, the Ensemble Model was submitted to Kaggle because it 
 
 
 
-## **Setup**
 
-### **Clone the Repository**
-
-To get started, clone the repository to your local machine:
-<ul>
-    <li><code> git clone https://github.com/your-username/adhd-sex-prediction.git </code></li>
-    <li><code> cd adhd-sex-prediction </code></li>
-</ul>
-
-### **Install Dependencies**
-
-Install the required Python dependencies by running the following:
-<ul>
-    <li><code> pip install -r requirements.txt </code></li>
-</ul>
 
 
 
