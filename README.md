@@ -2,7 +2,7 @@
 
 ---
 
-### **👥 Team Members**
+## **👥 Team Members**
 
 | Harsita Keerthikanth | @harsita-keerthi | Performed exploratory data analysis, data processing, and built baseline model |
 
@@ -48,7 +48,7 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
 - **Refined ADHD and Sex Classification Models**: 
   - Successfully built models that addressed specific challenges like ADHD detection accuracy and improving female detection in the sex classification task.
 
-## **🛠️Setup & Execution**
+## **🛠️ Setup & Execution**
 
 ### **Clone the Repository**
 
