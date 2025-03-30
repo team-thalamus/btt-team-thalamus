@@ -49,7 +49,7 @@ One challenge we faced was trying to improve our accuracy score.
 <img width="633" alt="Screenshot 2025-03-22 at 10 35 39 AM" src="https://github.com/user-attachments/assets/60bc14fc-8ec3-49ff-90cd-df5e1758f782" />
 <img width="635" alt="Screenshot 2025-03-22 at 10 35 53 AM" src="https://github.com/user-attachments/assets/cc571107-39cc-4be9-84c6-f6291569c04b" />
 
-# 🏗️ Model Development
+## **🏗️ Model Development**
 
 ## 🔹 Baseline Models
 We started with Logistic Regression models for ADHD and Sex classification. This helped us understand how well the models perform without any adjustments.
@@ -108,7 +108,7 @@ We tried using multiple models together (Logistic Regression, Random Forest, XGB
 After testing all models, the Ensemble Model was submitted to Kaggle because it showed the best overall performance.
 
 - **Final Model Submitted:** Ensemble Model
-- **Kaggle Accuracy:** ~64%
+- **Kaggle Accuracy:** 0.64427
 - **Explanation:** The Kaggle result was lower than our training results (around 75-78%). This drop in performance suggests that the model didn't generalize well to unseen test data. This could mean there are differences between the dataset used for training and the one on Kaggle, or our model was slightly overfitting to the training data.
 
 <img width="947" alt="Sex Ensemble Model" src="https://github.com/user-attachments/assets/03786fe3-f1b3-4080-ba4c-8eb6576a16af" />
