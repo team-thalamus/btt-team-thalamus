@@ -49,8 +49,6 @@ One challenge we faced was trying to improve our accuracy score.
 <img width="633" alt="Screenshot 2025-03-22 at 10 35 39 AM" src="https://github.com/user-attachments/assets/60bc14fc-8ec3-49ff-90cd-df5e1758f782" />
 <img width="635" alt="Screenshot 2025-03-22 at 10 35 53 AM" src="https://github.com/user-attachments/assets/cc571107-39cc-4be9-84c6-f6291569c04b" />
 
-## **🏗️ Model Development**
-
 ## **🏗️ Model Development**  
 
 ### **🔹 Baseline Models**  
