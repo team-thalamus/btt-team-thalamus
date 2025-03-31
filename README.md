@@ -1,17 +1,13 @@
 # BTT WiDS Datathon - Team Thalamus
 
----
-
 ## **👥 Team Members**
 
 | Name                  | GitHub Handle        | Contribution                                                         |
-|-----------------------|----------------------|----------------------------------------------------------------------|
+|--|-|-|
 | Harsita Keerthikanth  | @harsita-keerthi     | Performed exploratory data analysis, data processing, and built baseline model |
 | Meenakshi Sundarrajan  | @Meenakshi2004       | Modified hyperparameter tuning & accuracy and model testing          |
 | Krit Ravichander       | @krit.rr             | Performed data processing, built model, performed hyperparameter tuning |
 | Srewashi Mondal       | @srewashimondal      | Focused on trying to improve the model through continuous testing    |
-
----
 
 ## **🏗️ Project Overview**
 
@@ -25,9 +21,7 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
 
 * The real-world significance of the problem and the potential impact of your work is to help girls and women be diagnosed with ADHD earlier, allowing them to get more equitable accommodations.
 
----
-
-## **🎯 Project Highlights**
+# **🎯 Project Highlights**
 
 - **Built a Logistic Regression Model**: Developed baseline models for both ADHD and Sex classification using Logistic Regression to understand initial performance and set a benchmark.
   
@@ -47,7 +41,7 @@ Project Question: “What brain activity patterns are associated with ADHD; are 
 - **Refined ADHD and Sex Classification Models**: 
   - Successfully built models that addressed specific challenges like ADHD detection accuracy and improving female detection in the sex classification task.
 
-## **🛠️ Setup & Execution**
+# **🛠️ Setup & Execution**
 
 ### **Clone the Repository**
 
@@ -64,8 +58,7 @@ Install the required Python dependencies by running the following:
     <li><code> pip install -r requirements.txt </code></li>
 </ul>
 
-
-## **📊 Data Exploration**
+# **📊 Data Exploration**
 
 **Describe:**
 
@@ -84,7 +77,7 @@ One challenge we faced was trying to improve our accuracy score.
 <img width="633" alt="Screenshot 2025-03-22 at 10 35 39 AM" src="https://github.com/user-attachments/assets/60bc14fc-8ec3-49ff-90cd-df5e1758f782" />
 <img width="635" alt="Screenshot 2025-03-22 at 10 35 53 AM" src="https://github.com/user-attachments/assets/cc571107-39cc-4be9-84c6-f6291569c04b" />
 
-## **🏗️ Model Development**
+# **🏗️ Model Development**
 
 ## 🔹 Baseline Models
 We started with Logistic Regression models for ADHD and Sex classification. This helped us understand how well the models perform without any adjustments.
@@ -101,7 +94,6 @@ We started with Logistic Regression models for ADHD and Sex classification. This
 
 <img width="479" alt="ADHD Baseline Model" src="https://github.com/user-attachments/assets/9e6e49af-71ba-4cde-8ff4-eb08b3d3771e" />
 
----
 
 ## 🔹 Hyperparameter Tuning
 We used GridSearchCV to fine-tune the Logistic Regression models, adjusting settings like penalty types and class weights. This was done to improve performance, especially for underrepresented groups (like non-ADHD and females).
@@ -117,8 +109,6 @@ We used GridSearchCV to fine-tune the Logistic Regression models, adjusting sett
 - **Explanation:** The tuned model improved, but female detection still lagged behind. Even though balancing the weights helped, the features in the dataset might not have been enough to distinguish female cases effectively, which led to a smaller improvement.
 
 <img width="949" alt="Sex Baseline Model" src="https://github.com/user-attachments/assets/69cfb464-47e4-4b9b-aa7a-b10fd258be90" />
-
----
 
 ## 🔹 Ensemble Models
 We tried using multiple models together (Logistic Regression, Random Forest, XGBoost) to create an ensemble model, hoping to combine their strengths and boost performance.
@@ -139,10 +129,7 @@ We tried using multiple models together (Logistic Regression, Random Forest, XGB
 
 <img width="947" alt="Sex Ensemble Model" src="https://github.com/user-attachments/assets/03786fe3-f1b3-4080-ba4c-8eb6576a16af" />
 
-
----
-
-### 🎯 Final Model & Kaggle Results
+# 🎯 Final Model & Kaggle Results
 After testing all models, the Ensemble Model was submitted to Kaggle because it showed the best overall performance.
 
 - **Final Model Submitted:** Ensemble Model
@@ -150,6 +137,28 @@ After testing all models, the Ensemble Model was submitted to Kaggle because it 
 - **Explanation:** The Kaggle result was lower than our training results (around 75-78%). This drop in performance suggests that the model didn't generalize well to unseen test data. This could mean there are differences between the dataset used for training and the one on Kaggle, or our model was slightly overfitting to the training data.
 
 <img width="405" alt="Screenshot 2025-03-30 at 4 50 51 PM" src="https://github.com/user-attachments/assets/130897cf-7466-4930-9a64-510715a0af44" />
+
+
+# **🖼️ Impact Narrative**
+
+1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
+
+    Our model found patterns in fMRI data linked to ADHD. Males and females showed some differences in brain activity, but more research is needed.
+
+2. How could your work help contribute to ADHD research and/or clinical care?
+
+    Our work helps improve ADHD detection, especially in females, leading to earlier diagnosis and better accommodations.
+
+
+# **🚀 Next Steps & Future Improvements**
+**Limitations:**
+* The model struggles with female detection and non-ADHD classification.
+* Accuracy drops on unseen data (Kaggle results lower than training performance).
+
+**Future Improvements:**
+* Use more advanced deep learning models.
+* Try feature selection to improve model focus.
+* Collect or explore more diverse datasets for better generalization.
 
 
 
